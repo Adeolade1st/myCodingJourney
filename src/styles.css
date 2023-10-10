@@ -7,11 +7,14 @@
         font-size: 16px;
         display: flex;
         text-align: right;
-        text-decoration: none;  
+        text-decoration: none;
+        background-color: #151226;
+        overflow: hidden;
         
        
     }
 
+       
     h1{
         margin-top: 20px;
     }
@@ -40,17 +43,9 @@
             
             }
 
-    .container-head{
-        margin-top: 0 auto;
-        padding-bottom: 2px;
-        padding: 0%;
-  
-    }
-
-
+    
 .container_img{
     max-width: 600px;
-    
     height: auto;
     display: block;
     margin: 0 auto;
@@ -58,26 +53,12 @@
 }
 }
 
-
-
-
-
-
 :root {
     --secondary-color: #151226;
     --contrast-color: #BF307F;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
 
-
-}
 
 .container {
     display: flex;
@@ -127,11 +108,34 @@
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 5px;
-    padding-top: 0;
- 
-   
-    
+    padding-top: 0; 
 }
+
+.navbar{
+    background-color: white;
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 20px;
+   margin-bottom: 50px;
+
+ 
+}
+
+.navbar a:hover{
+   
+    color: blue;
+    background-color: #151226;
+}
+
+.active{
+    color: blue;
+}
+
+.active:hover{
+    color: #BF307F;
+}
+
+
 
 
 
@@ -147,6 +151,8 @@ p {
     height: 100%;
     width: 250px;
     overflow: hidden;
+    text-decoration: none;
+    
   
    
 }
@@ -162,7 +168,7 @@ p {
 
  }
 
- .par a:hover{
+ .par:hover{
     transition: all 200ms ease-in-out;
     color: yellow;
  }
@@ -186,7 +192,10 @@ p {
     outline: none;
     transform: translateY(50px);
     animation: slideUp .8s ease-in-out forwards 1s;
+    text-decoration: none;
 }
+
+
 
 .title {
     overflow: hidden;
