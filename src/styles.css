@@ -1,56 +1,55 @@
 @media (max-width: 500px) {
-    .fa-flip{
+    .fa-flip {
         font-size: 4px;
     }
 
-    .par a{
+    .par a {
         font-size: 16px;
         display: flex;
         text-align: right;
         text-decoration: none;
         background-color: #151226;
         overflow: hidden;
-        
-       
+
+
     }
 
-       
-    h1{
+
+    h1 {
         margin-top: 20px;
     }
 
-           
-    .title h2{
+
+    .title h2 {
         margin-bottom: 5px;
         font-weight: 800px;
         font-size: 20px;
-           
-        }
 
-    .container_content_inner 
-    {
-                 
-    padding-top: -70px;
-    margin-top: 80px;
-        
     }
 
-        .img-inner {
-        
-            max-width: 400px;
-            margin-top: 0;
-            line-height: 2.5px;
-            
-            }
+    .container_content_inner {
 
-    
-.container_img{
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 300px;
-}
+        padding-top: -70px;
+        margin-top: 80px;
+
+    }
+
+    .img-inner {
+
+        max-width: 400px;
+        margin-top: 0;
+        line-height: 2.5px;
+
+    }
+
+
+    .container_img {
+        max-width: 600px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 300px;
+    }
 }
 
 :root {
@@ -67,7 +66,7 @@
     align-items: center;
     animation: expand .8s ease forwards;
     background-color: var(--secondary-color);
-    margin-top:-47px;
+    margin-top: -47px;
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all .8s ease;
@@ -85,7 +84,7 @@
     width: 85%;
     margin-left: 30px;
     padding-top: 20px;
-   
+
 }
 
 .container_outer_img {
@@ -101,39 +100,27 @@
     border-radius: 6px;
 }
 
-.par{
-   
+.par {
+
     overflow: hidden;
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 5px;
-    padding-top: 0; 
+    padding-top: 0;
 }
 
 .navbar{
-    background-color: white;
-   display: flex;
-   justify-content: flex-end;
-   margin-top: 20px;
-   margin-bottom: 50px;
-
+    margin-bottom: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
  
 }
 
-.navbar a:hover{
-   
-    color: blue;
-    background-color: #151226;
-}
 
-.active{
-    color: blue;
-}
 
-.active:hover{
-    color: #BF307F;
-}
+
+
 
 
 
@@ -152,30 +139,30 @@ p {
     width: 250px;
     overflow: hidden;
     text-decoration: none;
-    
-  
-   
+
+
+
 }
 
- .par a {
-     font-size: 20px;
-     text-align: center;
-     text-decoration: none;
-     padding-right: 30px;
-     margin-top: 20px;
-     margin-bottom: 20px;
-   
+.par a {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
- }
 
- .par:hover{
+}
+
+.par:hover {
     transition: all 200ms ease-in-out;
     color: yellow;
- }
+}
 
 
-.web{
-    color:white;
+.web {
+    color: white;
     font-size: 16px;
     font-style: italic;
     text-align: center;
@@ -202,7 +189,7 @@ p {
     height: auto;
 }
 
-.card-title{
+.card-title {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
@@ -210,11 +197,11 @@ p {
 
 
 
-.card-body{
+.card-body {
     margin-bottom: 20px;
 }
 
-.card{
+.card {
     margin-left: 40px;
 }
 
@@ -228,10 +215,10 @@ h2 {
     animation: slideUp .20s ease forwards .25s;
     margin-top: 10px;
 
-        font-weight: 800px;
+    font-weight: 800px;
 
- 
-    
+
+
 }
 
 
@@ -265,4 +252,3 @@ h2 {
         transform: translateX(0px);
     }
 }
-
