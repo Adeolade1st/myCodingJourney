@@ -14,6 +14,12 @@
 
     }
 
+    .navbar{
+        
+        font-size: 16px;
+    }
+
+    
 
     h1 {
         margin-top: 20px;
@@ -52,6 +58,15 @@
     }
 }
 
+@media screen and(min-width:510px) {
+    .container {
+        margin-top: 40px;
+    }
+
+
+
+}
+
 :root {
     --secondary-color: #151226;
     --contrast-color: #BF307F;
@@ -66,7 +81,6 @@
     align-items: center;
     animation: expand .8s ease forwards;
     background-color: var(--secondary-color);
-    margin-top: -47px;
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all .8s ease;
@@ -117,6 +131,30 @@
  
 }
 
+.nav-link:hover{
+    color: blue;
+    font-size: 20px;
+    transition: all ease-in-out 150ms;
+    background-color: #151226;
+    opacity: 70%;
+
+}
+
+.nav-link.active{
+    color: blue;
+}
+
+.nav {
+
+    margin-top: 40;
+    margin-bottom: 100px;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+  
+  
+
+}
 
 
 
@@ -155,10 +193,7 @@ p {
 
 }
 
-.par:hover {
-    transition: all 200ms ease-in-out;
-    color: yellow;
-}
+
 
 
 .web {
