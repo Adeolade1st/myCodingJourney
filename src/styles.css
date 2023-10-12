@@ -152,8 +152,12 @@
    justify-content: center;
    justify-content: space-evenly;
   
-  
 
+}
+
+.contact-me{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -204,7 +208,7 @@ p {
 }
 
 .btns_more {
-    background: transparent;
+   background-color: #151226;
     border: 1px solid blue;
     border-radius: 50px;
     padding: 8px 12px;
@@ -214,7 +218,7 @@ p {
     outline: none;
     transform: translateY(50px);
     animation: slideUp .8s ease-in-out forwards 1s;
-    text-decoration: none;
+   
 }
 
 
@@ -254,6 +258,20 @@ h2 {
 
 
 
+}
+
+.fa-beat{
+    color: #0B5ED7;
+    display: inline;
+   padding-left: 30px;
+   margin-top: 50px;
+}
+
+.fa-beat .heading{
+    color: #0B5ED7;
+    display: inline;
+    padding-left: 60px;
+ 
 }
 
 
