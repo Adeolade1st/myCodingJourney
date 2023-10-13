@@ -14,6 +14,13 @@
 
     }
 
+    .contact-me{
+        font-size: 10px;
+       
+    }
+
+       
+
     .navbar{
         
         font-size: 16px;
@@ -56,12 +63,45 @@
         margin: 0 auto;
         margin-bottom: 300px;
     }
+
+   
+      
+
+        .buttom .card{
+            margin-top: 130px;
+            margin-left: 65px;
+        }
+
+        .buttom{
+            margin-top: -750px;
+        }
+
+        .card{
+            margin-bottom: -20px;
+        }
+
+       .work .my-work{
+        margin-top: -1300px;
+        margin-bottom: 50px;
+       }
+
+       .work.btns .btns{
+        margin-top: -1200px;
+       
+       }
+
+      
+      
+
+
 }
 
-@media screen and(min-width:510px) {
+@media screen and(min-width:501px) {
     .container {
         margin-top: 40px;
     }
+
+    
 
 
 
@@ -72,6 +112,20 @@
     --contrast-color: #BF307F;
 }
 
+
+h2 {
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 20px;
+    transform: translateY(100px);
+    animation: slideUp .20s ease forwards .25s;
+    margin-top: 10px;
+
+    font-weight: 800px;
+
+
+
+}
 
 
 .container {
@@ -162,12 +216,6 @@
 
 
 
-
-
-
-
-
-
 p {
     line-height: 28px;
     transform: translateY(300px);
@@ -207,20 +255,6 @@ p {
     text-align: center;
 }
 
-.btns_more {
-   background-color: #151226;
-    border: 1px solid blue;
-    border-radius: 50px;
-    padding: 8px 12px;
-    color: white;
-    font-size: 16px;
-    margin-top: 15px;
-    outline: none;
-    transform: translateY(50px);
-    animation: slideUp .8s ease-in-out forwards 1s;
-   
-}
-
 
 
 .title {
@@ -237,27 +271,39 @@ p {
 
 
 .card-body {
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    
 }
 
 .card {
     margin-left: 40px;
+    margin-top: -800px;
+    height: 450px;
 }
 
 
 
-h2 {
-    font-size: 30px;
-    color: blue;
-    margin-bottom: 20px;
-    transform: translateY(100px);
-    animation: slideUp .20s ease forwards .25s;
-    margin-top: 10px;
-
-    font-weight: 800px;
 
 
+.my-work a{
+    margin-top: -900px;
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 30px;
+   
+   
+}
 
+.my-work {
+   
+    margin-top: -410px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(13, 110, 253);
+    font-family:"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 33.42px;
+    text-align: right;
+    margin-bottom: 30px;
 }
 
 
@@ -274,6 +320,7 @@ h2 {
     padding-left: 60px;
  
 }
+
 
 
 
