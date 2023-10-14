@@ -64,25 +64,29 @@
         margin-bottom: 300px;
     }
 
+    .buttom{
+      max-height: 800px;
+    }
+
    
       
 
         .buttom .card{
-            margin-top: 130px;
+            margin-top: 50px;
             margin-left: 65px;
+            margin-bottom: 100px;
         }
 
         .buttom{
-            margin-top: -750px;
+            margin-top: -680px;
+         
         }
 
-        .card{
-            margin-bottom: -20px;
-        }
-
+      
        .work .my-work{
-        margin-top: -1300px;
+        margin-top: -1200px;
         margin-bottom: 50px;
+        padding-bottom: 0;
        }
 
        .work.btns .btns{
@@ -90,22 +94,38 @@
        
        }
 
-      
-      
+       .container{
+        margin-left: 6px;
+        max-height: -900px;
+        
+       }
 
+       .work{
+        margin-bottom: -150px;
+       }
 
-}
-
-@media screen and(min-width:501px) {
-    .container {
-        margin-top: 40px;
-    }
-
+       
     
+          .contact-social-links p a {
+    
+    
+              font-size: 6px;
+              text-decoration: none;
+          }
 
+        .container-contact{
+            margin-top: 400px;
+        }
+
+        .mock-dull{
+            max-width: 150px;
+        }
+      
 
 
 }
+
+
 
 :root {
     --secondary-color: #151226;
@@ -136,10 +156,12 @@ h2 {
     animation: expand .8s ease forwards;
     background-color: var(--secondary-color);
     position: relative;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all .8s ease;
     padding-top: 0;
     margin-bottom: 0;
+   
+   
 
 }
 
@@ -276,9 +298,15 @@ p {
 }
 
 .card {
-    margin-left: 40px;
+    margin-left: 45px;
     margin-top: -800px;
     height: 450px;
+   
+}
+
+.buttom .card{
+    margin-bottom: -30px;
+
 }
 
 
@@ -321,6 +349,50 @@ p {
  
 }
 
+.fa-location-dot{
+    color: #0B5ED7;
+    margin-left: 20px;
+}
+
+.fa-envelope{
+    color: #0B5ED7;
+    margin-left: 20px;
+}
+
+.fa-phone{
+    color: #0B5ED7;
+    margin-left: 20px;
+}
+
+
+
+.get-intouch{
+   
+ text-align: center;
+color: #0B5ED7;
+font-size: 30px;
+font-weight: 800px;
+ margin-bottom: 0;
+ margin-top: 10px;
+}
+
+.contact-social-links{
+
+    margin-top: 0;
+    font-size: 10px;
+    list-style: none;
+}
+
+
+
+.contact-social-links p a {
+    
+    
+              font-size: 16px;
+              text-decoration: none;
+              margin-left: 80px;
+          }
+      
 
 
 

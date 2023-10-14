@@ -57,9 +57,9 @@
             <a class="nav-link active" aria-current="page" href="#aboutMe"
               >Home</a
             >
-            <a class="nav-link" href="#aboutMe ">About Me</a>
+            <a class="nav-link" href="#aboutMe ">About </a>
             <a class="nav-link" href="#myWork">Projects</a>
-            <a class="nav-link" href="#contactMe">Contact Me</a>
+            <a class="nav-link" href="#contactMe">Contact </a>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@
         <div>
           <a href="#myContact" class="btn btn-primary">Contact Me</a>
         </div>
-        <div class="past-project">Past Projects</div>
+        <div class="past-project" id="myWork">Past Projects</div>
       </h5>
     </div>
     <div class="container buttom">
@@ -183,7 +183,6 @@
               href="https://react-weather-project-ws2x.onrender.com/"
               target="_blank"
               class="btn btn-primary mb-4"
-              id="myWork"
               >View Project</a
             >
             <div>
@@ -198,11 +197,52 @@
     </div>
 
     <div class="container-contact">
-      <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-8" id="myContact"><p>Drop a message.</p></div>
+      <p class="get-intouch">Get in Touch</p>
+      <div class="row mt-5">
+        <div class="col-6">
+          <ul class="contact-social-links" id="myContact">
+            <li id="contactMe">
+              <p>
+                <a href="mailto:raisingsrs@gmail.com"
+                  ><i class="fa-solid fa-envelope"></i> Send me a mail</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#"
+                  ><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#"><i class="fa-solid fa-phone"></i> +2347030252923</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <img
+            src="src/rag-doll-with-giant-magnifying-glass-looking-blue.jpg"
+            alt="woman-coding"
+            style="width: 200px"
+            class="mock-dull"
+          />
+        </div>
+        <span class="socials d-flex justify-content-evenly">
+          <a href="https://github.com/Adeolade1st"
+            ><i class="fa-brands fa-github heading"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/adeola-ilavbare-98a621260"
+            ><i class="fa-brands fa-linkedin heading"></i
+          ></a>
+          <a href="https://twitter.com/raisingsrs"
+            ><i class="fa-brands fa-twitter heading"></i></a
+        ></span>
       </div>
     </div>
+
     <script src="src/app.js"></script>
   </body>
 </html>
