@@ -55,7 +55,7 @@
 
     }
 
-
+ 
     .container_img {
         max-width: 600px;
         height: auto;
@@ -67,6 +67,7 @@
     .buttom{
   
         margin-top: -680px;
+        margin-bottom: 20px;
     }
 
    
@@ -74,8 +75,9 @@
 
         .buttom .card{
             margin-top: 50px;
-            margin-left: 65px;
-            margin-bottom: 100px;
+            margin-left: 60px;
+            margin-bottom: 20px;
+        
         }
 
       
@@ -91,10 +93,10 @@
        }
 
        .container{
-        margin-left: 6px;
-        max-height: -900px;
-        
+        position: relative;
        }
+
+       
 
        .work{
         margin-bottom: -150px;
@@ -110,23 +112,20 @@
               margin-right: 20px;
           }
 
-                  
 
-                                  .contact-social-links p a .fa-solid{
+          .footer-contact{
+            display: inline-flex;
+            justify-content: center;
+            font-size: 25px;
+            margin: 0 auto;
 
-                                      font-size: 16px;
-                                      text-decoration: none;
-                                      margin-right: 20px;
-                                  }
-
-          
-
-    
+          }
 
 
         .container-contact{
 
             margin-top: 400px;
+           
             
         }
 
@@ -142,11 +141,23 @@
                     max-width: 600px;
                         height: auto;
                       position: absolute;
-                      height: 100%;
-                      width: 100%;
+                      height: 50%;
+                      width: 50%;
                     left: 0;
                         top: 0;
                  
+                }
+
+                .social-large-screen{
+                    display: none;
+                   
+                }
+
+
+                .small-screen-footer .heading-small-screen{
+
+                   margin-left: 50px;
+                   font-size: 30px;
                 }
       
 
@@ -157,7 +168,7 @@
 
 :root {
     --secondary-color: #151226;
-    --contrast-color: #BF307F;
+   
 }
 
 
@@ -168,7 +179,6 @@ h2 {
     transform: translateY(100px);
     animation: slideUp .20s ease forwards .25s;
     margin-top: 10px;
-
     font-weight: 800px;
 
 
@@ -183,11 +193,11 @@ h2 {
     align-items: center;
     animation: expand .8s ease forwards;
     background-color: var(--secondary-color);
-    position: relative;
+
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all .8s ease;
     padding-top: 0;
-    margin-bottom: 0;
+   
    
    
 
@@ -314,26 +324,22 @@ p {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+  
 }
 
 
 
-.card-body {
-    margin-bottom: 0;
-    
-}
 
 .card {
     margin-left: 45px;
     margin-top: -800px;
     height: 450px;
    
+    margin-bottom: -50px;
+    padding-bottom: 5px;
+   
 }
 
-.buttom .card{
-    margin-bottom: -30px;
-
-}
 
 
 .my-work a{
@@ -368,10 +374,9 @@ p {
 
 
 
-.fa-envelope{
-    color: #0B5ED7;
-    margin-left: 20px;
-}
+
+
+
 
 
 .contact-info{
@@ -380,16 +385,6 @@ p {
   
 }
 
-.fa-solid{
-  margin-left: 10px;
-  font-size: 40px;
-  color: #0B5ED7;
-}
-
-.fa-solid:hover {
-    color: #151226;
-    transition: all 150ms ease-in-out;
-}
 
 li p .heading{
     margin-left: 10px;
@@ -413,6 +408,7 @@ font-size: 30px;
 font-weight: 800px;
  margin-bottom: 0;
  margin-top: 10px;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .contact-social-links{
@@ -428,6 +424,12 @@ font-weight: 800px;
 
 }
 
+.container-contact{
+    margin-bottom: 150px;
+}
+
+
+
 .contact-social-links p a {
     
     
@@ -438,6 +440,7 @@ font-weight: 800px;
 
                   .google-map {
                       padding-bottom: 50%;
+
         
                   }
         
