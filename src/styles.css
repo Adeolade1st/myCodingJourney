@@ -14,19 +14,19 @@
 
     }
 
-    .contact-me{
+    .contact-me {
         font-size: 10px;
-       
+
     }
 
-       
 
-    .navbar{
-        
+
+    .navbar {
+
         font-size: 16px;
     }
 
-    
+
 
     h1 {
         margin-top: 20px;
@@ -55,7 +55,7 @@
 
     }
 
- 
+
     .container_img {
         max-width: 600px;
         height: auto;
@@ -64,102 +64,102 @@
         margin-bottom: 300px;
     }
 
-    .buttom{
-  
+    .buttom {
+
         margin-top: -680px;
         margin-bottom: 20px;
     }
 
-   
-      
 
-        .buttom .card{
-            margin-top: 50px;
-            margin-left: 60px;
-            margin-bottom: 20px;
-        
-        }
 
-      
-       .work .my-work{
+
+    .buttom .card {
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .work .my-work {
         margin-top: -1200px;
         margin-bottom: 50px;
         padding-bottom: 0;
-       }
+    }
 
-       .work.btns .btns{
+    .work.btns .btns {
         margin-top: -1200px;
-       
-       }
 
-       .container{
+    }
+
+    .container {
         position: relative;
-       }
+    }
 
-       
 
-       .work{
+
+    .work {
         margin-bottom: -150px;
-       }
-
-       
-    
-          .contact-social-links p a {
-    
-    
-              font-size: 16px;
-              text-decoration: none;
-              margin-right: 20px;
-          }
+    }
 
 
-          .footer-contact{
-            display: inline-flex;
-            justify-content: center;
-            font-size: 25px;
-            margin: 0 auto;
 
-          }
+    .contact-social-links p a {
 
 
-        .container-contact{
-
-            margin-top: 400px;
-           
-            
-        }
-
-                .google-map {
-                    padding-bottom: 50%;
-                    position: relative;
-        
-                }
-        
-                .google-map iframe {
-                   
-                
-                    max-width: 600px;
-                        height: auto;
-                      position: absolute;
-                      height: 50%;
-                      width: 50%;
-                    left: 0;
-                        top: 0;
-                 
-                }
-
-                .social-large-screen{
-                    display: none;
-                   
-                }
+        font-size: 16px;
+        text-decoration: none;
+        margin-right: 20px;
+    }
 
 
-                .small-screen-footer .heading-small-screen{
+    .footer-contact {
+        display: inline-flex;
+        justify-content: center;
+        font-size: 25px;
+        margin: 0 auto;
 
-                   margin-left: 50px;
-                   font-size: 30px;
-                }
-      
+    }
+
+
+    .container-contact {
+
+        margin-top: 400px;
+
+
+    }
+
+    .google-map {
+        padding-bottom: 50%;
+        position: relative;
+
+    }
+
+    .google-map iframe {
+
+
+        max-width: 600px;
+        height: auto;
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        left: 0;
+        top: 0;
+
+    }
+
+    .social-large-screen {
+        display: none;
+
+    }
+
+
+    .small-screen-footer .heading-small-screen {
+
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
 
 
 }
@@ -168,7 +168,7 @@
 
 :root {
     --secondary-color: #151226;
-   
+
 }
 
 
@@ -197,9 +197,9 @@ h2 {
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all .8s ease;
     padding-top: 0;
-   
-   
-   
+
+
+
 
 }
 
@@ -238,21 +238,21 @@ h2 {
     padding-top: 0;
 }
 
-.navbar{
+.navbar {
     margin-bottom: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
- 
+
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: blue;
-    transition: all ease-in-out 150ms; 
-    
+    transition: all ease-in-out 150ms;
+
 
 }
 
-.navbar-nav .active{
+.navbar-nav .active {
     color: blue;
 }
 
@@ -260,14 +260,14 @@ h2 {
 
     margin-top: 40;
     margin-bottom: 100px;
-   display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-  
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
 
 }
 
-.contact-me{
+.contact-me {
     text-decoration: none;
     color: white;
 }
@@ -324,7 +324,7 @@ p {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-  
+
 }
 
 
@@ -334,41 +334,41 @@ p {
     margin-left: 45px;
     margin-top: -800px;
     height: 450px;
-   
+
     margin-bottom: -50px;
     padding-bottom: 5px;
-   
+
 }
 
 
 
-.my-work a{
+.my-work a {
     margin-top: -900px;
-   margin: 0 auto;
-   display: block;
-   margin-bottom: 30px;
-   
-   
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+
+
 }
 
 .my-work {
-   
+
     margin-top: -410px;
     font-size: 25px;
     font-weight: 500;
     color: rgb(13, 110, 253);
-    font-family:"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     line-height: 33.42px;
     text-align: right;
     margin-bottom: 30px;
 }
 
 
-.fa-beat{
+.fa-beat {
     color: #0B5ED7;
     display: inline;
-   padding-left: 30px;
-   margin-top: 50px;
+    padding-left: 30px;
+    margin-top: 50px;
 }
 
 
@@ -379,78 +379,83 @@ p {
 
 
 
-.contact-info{
+.contact-info {
     margin-left: 80px;
     text-align: center;
-  
+
 }
 
 
-li p .heading{
+li p .heading {
     margin-left: 10px;
-        font-size: 40px;
-        color: #0B5ED7;
+    font-size: 40px;
+    color: #0B5ED7;
 }
 
-li p .heading:hover{
+li p .heading:hover {
     transition: all 150ms ease-in-out;
-        color:#151226;
+    color: #151226;
 }
 
 
 
 
-.get-intouch{
-   
- text-align: center;
-color: #0B5ED7;
-font-size: 30px;
-font-weight: 800px;
- margin-bottom: 0;
- margin-top: 10px;
- font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.get-intouch {
+
+    text-align: center;
+    color: #0B5ED7;
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.contact-social-links{
+.contact-social-links {
 
     margin-top: 0;
     font-size: 10px;
     list-style: none;
 }
 
-   a .contact-info{
+a .contact-info {
     text-decoration: none;
     font-size: 25px;
 
 }
 
-.container-contact{
+.container-contact {
     margin-bottom: 150px;
 }
 
 
 
 .contact-social-links p a {
-    
-    
-              font-size: 16px;
-              text-decoration: none;
-              margin-left: 80px;
-          }
 
-                  .google-map {
-                      padding-bottom: 50%;
 
-        
-                  }
-        
-                                 .google-map iframe {
-                                     height: 50%;
-                                     width: 50%;
-                                   
-                                     position: absolute;
-                                 }
-       
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.google-map {
+    padding-bottom: 50%;
+
+
+}
+
+.google-map iframe {
+    height: 50%;
+    width: 50%;
+
+    position: absolute;
+}
+
+.social-large-screen{
+
+    margin-right: 100px;
+}
+
 
 
 
